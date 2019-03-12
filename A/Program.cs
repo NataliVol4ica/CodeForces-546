@@ -9,7 +9,7 @@ namespace A
         static void Main(string[] args)
         {
             int n = Convert.ToInt32(Console.ReadLine());
-            var glavi = new List<int>();
+            var chapters = new List<int>();
             for (int i = 0; i < n; i++)
             {
                 var input = Console.ReadLine()
@@ -17,13 +17,13 @@ namespace A
                     .Where(str => !String.IsNullOrEmpty(str))
                     .Select(str => Convert.ToInt32(str))
                     .ToList() ;
-                glavi.Add(input[1]);
+                chapters.Add(input[1]);
             }
             int page = Convert.ToInt32(Console.ReadLine());
             int j = 0;
-            while (glavi[j] < page)
+            while (chapters[j] < page)
                 j++;
-            Console.WriteLine(glavi.Count - j);
+            Console.WriteLine(chapters.Count - j);
         }
     }
 }

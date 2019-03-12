@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
-using System.Numerics;
 
 namespace E
 {
@@ -21,7 +20,6 @@ namespace E
             var split = sum.ToString().Split('.').ToList();
             string str = split[0];
             Console.WriteLine(str);
-            //Console.WriteLine(sum); 
         }
         static void ParseCommand(List<string> cmd, List<long>a, List<long>k)
         {
@@ -31,7 +29,6 @@ namespace E
                 Sum(a, k, i -1 , x);
             else
                 Print(a, i, x);
-
         }
         static void Main(string[] args)
         {
