@@ -23,9 +23,11 @@ form a solid square (i.e. without holes).
 
 The first line contains two integers n and m separated by space.
 (1≤n,m≤500) — the numbers of rows and columns in A and B respectively.
+
 Each of the next n lines contains m integers, 
 the j-th number in the i-th of these lines denotes 
 the j-th element of the i-th row of the matrix A (1≤Aij≤109). 
+
 Each of the next n lines contains m integers,
 the j-th number in the i-th of these lines denotes the j-th element
 of the i-th row of the matrix B (1≤Bij≤109).
