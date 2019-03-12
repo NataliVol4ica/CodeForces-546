@@ -13,12 +13,16 @@ Nastya is too busy now, so she asks you to compute the number of chapters she ha
 
 ## Input
 
-The first line contains a single integer n (1≤n≤100) — the number of chapters in the book. 
+The first line contains a single integer n (1≤n≤100) — the number of chapters in the book.
+
 There are n lines then. 
+
 The i-th of these lines contains two integers li, ri separated by space 
 (l1=1, li≤ri) — numbers of the first and the last pages of the i-th chapter. 
+
 It's guaranteed that li+1=ri+1 for all 1≤i≤n−1, and also that every chapter contains at most 100
 pages.
+
 The (n+2)-th line contains a single integer k (1≤k≤rn) — the index of the marked page.
 
 ## Output
